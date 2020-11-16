@@ -45,7 +45,7 @@ def hit?(card_total)
     if c == "h"
       v = deal_card
       card_total += v
-      break
+      return card_total
     elsif c != 'h' && c != 's'
       invalid_command
       prompt_user

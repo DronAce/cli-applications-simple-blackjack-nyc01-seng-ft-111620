@@ -67,6 +67,6 @@ def runner
   welcome
   deal_card
   prompt_user
-  card = get_user_input
+  c = get_user_input
 
 end

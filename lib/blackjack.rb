@@ -52,7 +52,7 @@ end
 def invalid_command
   # code invalid_command here
   c = get_user_input
-  while c != 'h' ||  c != 's' do
+  if c != 'h' ||  c != 's'
     puts "Please enter a valid command"
     prompt_user
   end

@@ -68,5 +68,5 @@ def runner
   deal_card
   prompt_user
   c = get_user_input
-
+  c == 's'?  prompt_user : deal_card
 end

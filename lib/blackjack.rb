@@ -65,7 +65,7 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
+  hand = initial_round
   prompt_user
   x = get_user_input
   if x == 's'

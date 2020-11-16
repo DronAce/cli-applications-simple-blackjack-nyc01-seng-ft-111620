@@ -71,7 +71,7 @@ def runner
   if x == 's'
     prompt_user
   else
-    deal_card
+    card = deal_card
 
   end
 end

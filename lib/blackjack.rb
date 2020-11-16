@@ -71,7 +71,7 @@ def runner
   if x == 's'
     prompt_user
   else
-    card = deal_card
-
+    hand += deal_card
+    display_card_total(hand)
   end
 end

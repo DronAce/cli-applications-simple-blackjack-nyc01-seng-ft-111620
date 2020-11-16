@@ -68,10 +68,13 @@ def runner
   hand = initial_round
   prompt_user
   x = get_user_input
-  if x == 's'
-    prompt_user
-  else
-    hand += deal_card
-    display_card_total(hand)
-  end
+  until hand > 21
+    if x == 's'
+      prompt_user
+      x = get_user_input
+    else
+      hand += deal_card
+      display_card_total(hand)
+    end
+  end 
 end

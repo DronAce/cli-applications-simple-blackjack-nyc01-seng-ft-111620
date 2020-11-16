@@ -49,7 +49,7 @@ def hit?(card_total)
   card_total
 end
 
-def invalid_command(c)
+def invalid_command
   # code invalid_command here
   if c != 'h' ||  c != 's'
     puts "Please enter a valid command"

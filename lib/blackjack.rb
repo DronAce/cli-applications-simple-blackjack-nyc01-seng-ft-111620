@@ -70,7 +70,6 @@ def runner
   x = get_user_input
   if x == 's'
     prompt_user
-
   else
     deal_card
 

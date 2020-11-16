@@ -76,5 +76,5 @@ def runner
       hand += deal_card
       display_card_total(hand)
     end
-  end 
+  end
 end

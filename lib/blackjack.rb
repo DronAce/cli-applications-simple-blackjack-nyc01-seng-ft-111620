@@ -41,6 +41,7 @@ def hit?(card_total)
   # code hit? here
   prompt_user
   c = get_user_input
+  while c != nil do
   if c == "h"
     v = deal_card
     card_total += v

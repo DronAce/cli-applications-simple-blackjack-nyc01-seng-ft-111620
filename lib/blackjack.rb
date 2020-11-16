@@ -42,13 +42,14 @@ def hit?(card_total)
   prompt_user
   c = get_user_input
   while c != nil do
-  if c == "h"
-    v = deal_card
-    card_total += v
-    break
-  elsif c != 'h' && c != 's'
-    invalid_command
+    if c == "h"
+      v = deal_card
+      card_total += v
+      break
+    elsif c != 'h' && c != 's'
+      invalid_command
 
+    end
   end
   card_total
 end

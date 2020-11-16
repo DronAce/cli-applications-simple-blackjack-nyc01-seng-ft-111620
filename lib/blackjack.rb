@@ -68,11 +68,11 @@ def runner
   c1 = deal_card
   prompt_user
   x = get_user_input
-  if x == 's'  
+  if x == 's'
     prompt_user
 
-  else 
+  else
     deal_card
-    
+
   end
 end
